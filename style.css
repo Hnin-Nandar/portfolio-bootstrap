@@ -3,6 +3,7 @@
 * {
     font-family: "Roboto", serif;
     color: var(--fourth-color);
+    overflow-x: hidden;
    
 }
 
@@ -12,6 +13,9 @@
    --third-color: #7477FF;
    --fourth-color: #fff;
 }
+
+
+
 
 
 /* -------Custom Section------ */
@@ -129,14 +133,13 @@
     object-fit: scale-down;
     border-radius: 20px;
     border: 1px dashed var(--third-color);
-    opacity: 0.6;
+    overflow: hidden;
+    opacity: 0.5;
 
 }
 
 #project img:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-    opacity: 1;
+    opacity: 1;  
 }
 
 .heading-line-3 {
