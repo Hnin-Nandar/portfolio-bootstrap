@@ -3,7 +3,7 @@
 * {
     font-family: "Roboto", serif;
     color: var(--fourth-color);
-    overflow-x: hidden;
+    
    
 }
 
@@ -12,6 +12,10 @@
    --second-color: #1E293B;
    --third-color: #7477FF;
    --fourth-color: #fff;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
@@ -134,12 +138,15 @@
     border-radius: 20px;
     border: 1px dashed var(--third-color);
     overflow: hidden;
-    opacity: 0.5;
+    opacity: 0.6;
 
 }
 
 #project img:hover {
-    opacity: 1;  
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 1;
+    
 }
 
 .heading-line-3 {
