@@ -28,6 +28,18 @@
     font-family: "Leckerli One", serif;
 }
 
+.btn  {
+    background-color: var(--third-color);
+    color: wheat;
+}
+
+.btn:hover {
+    background-color: var(--third-color);
+    transform: scale(1.04);
+    color: var(--first-color);
+}
+
+
 /* -------Nav Bar Section------ */
 
 .navbar {
@@ -70,16 +82,6 @@
     width: 100%;
 }
 
-.btn  {
-    background-color: var(--third-color);
-    color: wheat;
-}
-
-.btn:hover {
-    background-color: var(--third-color);
-    transform: scale(1.04);
-    color: black;
-}
 
 
 /* -------About Section------ */
